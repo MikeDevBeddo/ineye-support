@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>InEye Support</title>
+    <meta
+      name="description"
+      content="Support information for InEye, an AI playground for supported Meta wearables."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="./index.html">InEye</a>
+        <nav class="topnav" aria-label="Primary">
+          <a aria-current="page" href="./index.html">Support</a>
+          <a href="./privacy.html">Privacy</a>
+        </nav>
+      </header>
+
+      <main class="content">
+        <section class="hero">
+          <p class="eyebrow">Support</p>
+          <h1>InEye support for early access users</h1>
+          <p class="lede">
+            InEye is an AI playground for supported Meta wearables with camera
+            streaming, AI assistance, WhatsApp-based display messaging, social
+            streaming, photo capture, and lower-distraction video recording.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="./privacy.html">View Privacy Policy</a>
+            <a class="button secondary" href="#troubleshooting">Troubleshooting</a>
+          </div>
+        </section>
+
+        <section class="grid three-up">
+          <article class="card">
+            <h2>Core features</h2>
+            <ul>
+              <li>Live video streaming from supported wearables</li>
+              <li>Real-time AI assistance with visual input</li>
+              <li>Photo capture and local video recording</li>
+              <li>Social streaming to supported RTMP platforms</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h2>Display answers</h2>
+            <p>
+              InEye can generate answers and route them through WhatsApp so they
+              can appear on supported display-enabled devices when that workflow
+              is configured.
+            </p>
+          </article>
+
+          <article class="card">
+            <h2>Important note</h2>
+            <p>
+              Feature availability depends on hardware support, Meta app
+              configuration, permissions, WhatsApp availability, network
+              quality, and third-party service setup.
+            </p>
+          </article>
+        </section>
+
+        <section class="card" id="quick-start">
+          <h2>Quick start checklist</h2>
+          <ol class="number-list">
+            <li>Install the Meta companion app on the iPhone paired to your wearable.</li>
+            <li>Enable Developer Mode on the supported device when required.</li>
+            <li>Open InEye and complete device registration.</li>
+            <li>Grant Bluetooth, microphone, photo, and related permissions as prompted.</li>
+            <li>Configure AI, messaging, or streaming integrations only for the features you plan to use.</li>
+          </ol>
+        </section>
+
+        <section class="card" id="troubleshooting">
+          <h2>Troubleshooting</h2>
+
+          <div class="faq-item">
+            <h3>The wearable does not connect</h3>
+            <p>
+              Confirm the device is powered on, paired in the Meta companion
+              app, within range, and allowed to use Developer Mode if your
+              workflow requires it. If registration was interrupted, complete it
+              again from InEye.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Live video stays on waiting or never starts</h3>
+            <p>
+              Check that the device is connected, camera access has been granted
+              through the Meta companion app, and the app has completed
+              registration. Closing the wearable or losing Bluetooth connection
+              can stop the stream.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>AI answers do not appear in the display</h3>
+            <p>
+              That flow depends on WhatsApp-based delivery and supported
+              display-enabled hardware. Verify the WhatsApp integration is
+              configured correctly and that the target device is able to show
+              the resulting messages.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Social streaming does not go live</h3>
+            <p>
+              Verify your RTMP destination, stream key, and platform limits.
+              InEye currently supports workflows such as Instagram Live,
+              Facebook Live, YouTube Live, and Twitch through supported RTMP
+              targets.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Recording works, but the output is not saved to Photos</h3>
+            <p>
+              InEye can record video locally inside the app. Saving to the photo
+              library requires photo access on iOS. Open Settings for the app
+              and enable photo library access if needed.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Why use InEye recording instead of the default recording flow?</h3>
+            <p>
+              InEye is designed to support a more focused recording workflow
+              with less visual interruption for supported use cases, which can
+              be more comfortable during movement, creation, and hands-free
+              capture.
+            </p>
+          </div>
+        </section>
+
+        <section class="grid two-up">
+          <article class="card">
+            <h2>Compatibility</h2>
+            <ul>
+              <li>iOS app for supported Meta wearables</li>
+              <li>Some features require Meta companion app support</li>
+              <li>Some features depend on WhatsApp or third-party AI services</li>
+              <li>Social streaming depends on valid RTMP credentials</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h2>Privacy and data use</h2>
+            <p>
+              InEye may process audio, camera frames, prompts, AI responses,
+              messaging data, and streaming configuration depending on which
+              features you enable. Read the full policy for details.
+            </p>
+            <p>
+              <a class="text-link" href="./privacy.html">Read the privacy policy</a>
+            </p>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Last updated: March 15, 2026</p>
+        <p>InEye support site for GitHub Pages deployment.</p>
+      </footer>
+    </div>
+  </body>
+</html>
