@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "3AT99849XU.com.ineye",
+        "paths": [
+          "/open",
+          "/open/*"
+        ]
+      }
+    ]
+  }
+}
